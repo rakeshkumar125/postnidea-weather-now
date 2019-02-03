@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popup.js"></script>
+    <style type="text/css">
+    	#weather-report{ width:180px; font-size: 14px; min-height:180px; }
+    	#weather-report th, td{ text-align: left; }
+    	td.place { height: 22px; border-bottom: 2px solid #000; margin-bottom: 12px; }
+    	.loading_text{margin-left:58px;}
+    	.internet_error {
+		        padding: 6px;
+    top: 3%;
+    position: absolute;
+		}
+    </style>
+  </head>
+  <body>
+		<div id="weather-report">
+			<img src="images/loader.svg" style="margin-left: 42px;">
+			<div class="loading_text">Please wait....</div>
+		</div>
+
+  </body>
+</html>
